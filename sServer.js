@@ -14,4 +14,4 @@ app.use((req, res, next) => {
     common.sendErrMsg(errMsg, res);
 });
 
-app.listen(port, () => console.log(`Server started`));
+app.listen(port, () => console.log(`Server started`)); 
